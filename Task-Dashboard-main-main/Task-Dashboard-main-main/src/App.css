@@ -1,0 +1,142 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ecce09;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.002s ease;
+}
+
+button:hover {
+  background-color: #e8af1d;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  background: #ffffff;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #fffffff9;
+}
+
+button.active {
+  background-color: #ebe341ab;
+}
+
+.tab-selector {
+  display: flex;
+  background: #00000afa;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-selector {
+  display: flex;
+  background: #00000afa;
+  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #45a049;
+}
+
+.tab-button:hover {
+  background-color: #45a049;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman";
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.centered-footer {
+  text-align: center;
+}
+.centered-footer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Courier New";
+  font-style: normal;
+}
+
+.centered-text {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  font-style: oblique;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}
